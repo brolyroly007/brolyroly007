@@ -63,6 +63,16 @@
 <table>
   <tr>
     <td width="33%" valign="top">
+      <h3><a href="https://github.com/brolyroly007/docschat">DocsChat</a></h3>
+      <p>RAG chat system. Ingest documents (PDF, DOCX, TXT, MD), embed in ChromaDB, and chat with them using any LLM. REST API + CLI.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
+        <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=flat&logo=databricks&logoColor=white">
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white">
+      </p>
+    </td>
+    <td width="33%" valign="top">
       <h3><a href="https://github.com/brolyroly007/ai-content-api">AI Content API</a></h3>
       <p>Multi-LLM REST API for AI content generation. OpenAI, Gemini & Ollama in one unified interface with 8 templates, SSE streaming, rate limiting, and dashboard.</p>
       <p>
@@ -72,6 +82,18 @@
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white">
       </p>
     </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/brolyroly007/contentforge">ContentForge</a></h3>
+      <p>CLI tool for generating content using LLMs. Multi-provider support with Typer and Rich for a polished terminal experience.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/Typer-000?style=flat&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/Rich-000?style=flat&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white">
+      </p>
+    </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <h3><a href="https://github.com/brolyroly007/Videos_downloader">Videos Downloader</a></h3>
       <p>Automated viral content pipeline. Download, process, and upload videos across TikTok, Instagram, YouTube Shorts and Facebook with AI subtitles.</p>
@@ -91,6 +113,8 @@
         <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat&logo=ffmpeg&logoColor=white">
         <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white">
       </p>
+    </td>
+    <td width="33%" valign="top">
     </td>
   </tr>
 </table>
