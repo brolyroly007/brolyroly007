@@ -62,22 +62,32 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/brolyroly007/Videos_downloader">Videos Downloader</a></h3>
-      <p>Automated viral content pipeline. Download, process, and upload videos across TikTok, Instagram, YouTube Shorts and Facebook. AI subtitles with Whisper, anti-copyright effects, one-click TikTok upload.</p>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/brolyroly007/ai-content-api">AI Content API</a></h3>
+      <p>Multi-LLM REST API for AI content generation. OpenAI, Gemini & Ollama in one unified interface with 8 templates, SSE streaming, rate limiting, and dashboard.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white">
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white">
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white">
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/brolyroly007/Stake_downloader">Stake Downloader</a></h3>
-      <p>Real-time viral moment detection from Kick.com/Stake.com streams. AI-powered analysis, automatic clipping, video processing and publishing to TikTok, YouTube Shorts and Instagram Reels.</p>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/brolyroly007/Videos_downloader">Videos Downloader</a></h3>
+      <p>Automated viral content pipeline. Download, process, and upload videos across TikTok, Instagram, YouTube Shorts and Facebook with AI subtitles.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
-        <img src="https://img.shields.io/badge/AI-FF6F00?style=flat&logo=tensorflow&logoColor=white">
+        <img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white">
+        <img src="https://img.shields.io/badge/Whisper-412991?style=flat&logo=openai&logoColor=white">
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white">
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/brolyroly007/Stake_downloader">Stake Downloader</a></h3>
+      <p>Real-time viral moment detection from Kick.com/Stake.com streams. AI analysis, automatic clipping, and publishing to social media.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat&logo=google&logoColor=white">
         <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat&logo=ffmpeg&logoColor=white">
         <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white">
       </p>
