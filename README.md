@@ -115,8 +115,8 @@
       </p>
     </td>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/brolyroly007/atajos">Atajos</a></h3>
-      <p>Global text expander for Windows with WhatsApp-style autocomplete. Type //shortcut in any app: cascading submenus, dynamic variables, instant expansion, and a visual manager. Single ~1 MB exe.</p>
+      <h3><a href="https://github.com/brolyroly007/midword">Midword</a></h3>
+      <p>Global text expander for Windows with WhatsApp-style autocomplete. Type //shortcut in any app: cascading submenus, file attachments, dynamic variables, and a visual manager. Single ~1 MB exe.</p>
       <p>
         <img src="https://img.shields.io/badge/AutoHotkey_v2-334455?style=flat&logo=autohotkey&logoColor=white">
         <img src="https://img.shields.io/badge/Windows-0078D4?style=flat">
