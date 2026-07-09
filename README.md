@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/brolyroly007/brolyroly007/main/assets/banner.svg" alt="Silver Rodríguez — builder of products that sell themselves" width="100%">
+  <img src="https://raw.githubusercontent.com/brolyroly007/brolyroly007/main/assets/banner.svg" alt="Silver Rodríguez — full-stack developer" width="100%">
 </p>
 
 <p align="center">
-  I build products that demo themselves — SaaS, AI pipelines and beat-synced video.<br>
-  <sub>Currently: <strong><a href="https://redactoria.com">RedactorIA</a></strong> (EdTech, 10k+ users in LatAm) · <strong><a href="https://trackbeat.vercel.app">heyro.ai</a></strong> (demos that hit on the beat — the landing IS the demo, turn the sound on)</sub>
+  I enjoy building things end to end — web apps, AI pipelines, and lately, video that follows music.<br>
+  <sub>Now: <a href="https://redactoria.com">RedactorIA</a> (academic writing SaaS) · <a href="https://trackbeat.vercel.app">heyro.ai</a> (beat-synced demos — better with sound on 🎧)</sub>
 </p>
 
 <p align="center">
@@ -13,7 +13,9 @@
   <a href="https://redactoria.com"><img src="https://img.shields.io/badge/RedactorIA-6F9C81?style=flat&logoColor=white" alt="RedactorIA"></a>
 </p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/brolyroly007/brolyroly007/main/assets/wave.svg" alt="" width="100%">
+</p>
 
 ### Stack
 
@@ -24,12 +26,14 @@
 </p>
 
 <p align="center">
-  <sub>Plus the glue that ships product: LangChain · Whisper · Playwright · FFmpeg · Remotion · GitHub Actions</sub>
+  <sub>Also around here often: LangChain · Whisper · Playwright · FFmpeg · Remotion · GitHub Actions</sub>
 </p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/brolyroly007/brolyroly007/main/assets/wave.svg" alt="" width="100%">
+</p>
 
-### Selected work
+### Some things I've built
 
 <table>
   <tr>
@@ -71,20 +75,23 @@
 </table>
 
 <p align="center">
-  <sub>Private but live: <a href="https://redactoria.com">RedactorIA</a> (SaaS académico) · <a href="https://trackbeat.vercel.app">TrackBeat / heyro.ai</a> (song → beat-synced demo video, Python + Remotion)</sub>
+  <sub>Closed-source but online: <a href="https://redactoria.com">RedactorIA</a> · <a href="https://trackbeat.vercel.app">TrackBeat / heyro.ai</a> (Python + Remotion)</sub>
 </p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/brolyroly007/brolyroly007/main/assets/wave.svg" alt="" width="100%">
+</p>
 
-### Experience
+### Background
 
-- **Founder & Full-Stack Developer** · **RedactorIA** (2024 – now) — EdTech SaaS, 10k+ users, RAG pipelines with LangChain, serverless on AWS & Vercel
-- **IT Support & Infrastructure** · Gobierno Regional de Puno (2022) — reduced downtime 20%
-- **Data Management Analyst** · PRONAMACH (2021) — automated reporting, −30% manual processing
+- **RedactorIA** (2024 – now) — founder & dev · EdTech SaaS with 10k+ users · RAG with LangChain, AWS & Vercel
+- **Gobierno Regional de Puno** (2022) — IT support & infrastructure
+- **PRONAMACH** (2021) — data management, report automation
+- **Universidad Nacional del Altiplano** — Systems Engineering
 
-**Universidad Nacional del Altiplano** — Systems Engineering
-
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/brolyroly007/brolyroly007/main/assets/wave.svg" alt="" width="100%">
+</p>
 
 <p align="center">
   <img src="https://github-stats-redactor-ia.vercel.app/api?username=brolyroly007&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="160" alt="GitHub Stats">

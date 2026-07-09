@@ -1,4 +1,4 @@
-<svg width="1000" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silver Rodriguez — builder of products that sell themselves">
+<svg width="1000" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silver Rodríguez — full-stack developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0a0c12"/>
@@ -44,55 +44,71 @@
       }
       .r2 { animation-delay: 4s; }
       .r3 { animation-delay: 8s; }
-      .dotpulse { animation: dp 1.0s ease-in-out infinite; }
-      @keyframes dp {
-        0%, 100% { opacity: 0.35; }
+      .wave {
+        stroke-dasharray: 6 10;
+        animation: dash 1.6s linear infinite;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -16; }
+      }
+      .breathe {
+        animation: br 5s ease-in-out infinite;
+      }
+      @keyframes br {
+        0%, 100% { opacity: 0.6; }
         50% { opacity: 1; }
+      }
+      .underline-slide {
+        stroke-dasharray: 60 340;
+        animation: slide 3.5s linear infinite;
+      }
+      @keyframes slide {
+        to { stroke-dashoffset: -400; }
       }
     </style>
   </defs>
 
   <rect width="1000" height="240" rx="16" fill="url(#bg)"/>
   <rect x="1" y="1" width="998" height="238" rx="15" stroke="#1d2536" stroke-width="1.5" fill="none"/>
-  <ellipse cx="500" cy="120" rx="420" ry="150" fill="url(#glow)"/>
+  <ellipse class="breathe" cx="500" cy="120" rx="420" ry="150" fill="url(#glow)"/>
 
   <!-- ecualizador izquierdo -->
   <g>
-    <rect class="bar d1" x="70"  y="70" width="11" height="100" rx="5.5" fill="#00dae8"/>
-    <rect class="bar d3" x="92"  y="70" width="11" height="100" rx="5.5" fill="#22c8dd" opacity="0.85"/>
-    <rect class="bar d5" x="114" y="70" width="11" height="100" rx="5.5" fill="#4a9fe8" opacity="0.7"/>
-    <rect class="bar d2" x="136" y="70" width="11" height="100" rx="5.5" fill="#7c5cff" opacity="0.55"/>
+    <rect class="bar d1" x="56"  y="70" width="10" height="100" rx="5" fill="#00dae8"/>
+    <rect class="bar d3" x="76"  y="70" width="10" height="100" rx="5" fill="#22c8dd" opacity="0.85"/>
+    <rect class="bar d5" x="96"  y="70" width="10" height="100" rx="5" fill="#4a9fe8" opacity="0.7"/>
+    <rect class="bar d2" x="116" y="70" width="10" height="100" rx="5" fill="#7c5cff" opacity="0.6"/>
+    <rect class="bar d4" x="136" y="70" width="10" height="100" rx="5" fill="#8f7bff" opacity="0.45"/>
+    <rect class="bar d6" x="156" y="70" width="10" height="100" rx="5" fill="#a596ff" opacity="0.3"/>
   </g>
 
   <!-- ecualizador derecho (espejo) -->
   <g>
-    <rect class="bar d4" x="842" y="70" width="11" height="100" rx="5.5" fill="#7c5cff" opacity="0.55"/>
-    <rect class="bar d6" x="864" y="70" width="11" height="100" rx="5.5" fill="#4a9fe8" opacity="0.7"/>
-    <rect class="bar d2" x="886" y="70" width="11" height="100" rx="5.5" fill="#22c8dd" opacity="0.85"/>
-    <rect class="bar d5" x="908" y="70" width="11" height="100" rx="5.5" fill="#00dae8"/>
+    <rect class="bar d6" x="834" y="70" width="10" height="100" rx="5" fill="#a596ff" opacity="0.3"/>
+    <rect class="bar d4" x="854" y="70" width="10" height="100" rx="5" fill="#8f7bff" opacity="0.45"/>
+    <rect class="bar d2" x="874" y="70" width="10" height="100" rx="5" fill="#7c5cff" opacity="0.6"/>
+    <rect class="bar d5" x="894" y="70" width="10" height="100" rx="5" fill="#4a9fe8" opacity="0.7"/>
+    <rect class="bar d3" x="914" y="70" width="10" height="100" rx="5" fill="#22c8dd" opacity="0.85"/>
+    <rect class="bar d1" x="934" y="70" width="10" height="100" rx="5" fill="#00dae8"/>
   </g>
 
   <!-- nombre -->
-  <text x="500" y="106" text-anchor="middle"
+  <text x="500" y="104" text-anchor="middle"
         font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif"
         font-size="46" font-weight="800" letter-spacing="-1" fill="#eef2f8">Silver Rodríguez</text>
 
-  <!-- subrayado con acento -->
-  <rect x="400" y="122" width="200" height="4" rx="2" fill="url(#accent)"/>
+  <!-- subrayado con destello que viaja -->
+  <line x1="400" y1="122" x2="600" y2="122" stroke="#233048" stroke-width="4" stroke-linecap="round"/>
+  <line class="underline-slide" x1="400" y1="122" x2="600" y2="122" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
 
-  <!-- roles rotativos -->
+  <!-- roles rotativos (sin humo) -->
   <g text-anchor="middle">
-    <text class="role"    x="500" y="158">Founder @ RedactorIA — 10k+ users across LatAm</text>
-    <text class="role r2" x="500" y="158">Building heyro.ai — product demos that hit on the beat</text>
-    <text class="role r3" x="500" y="158">Full-Stack &#183; AI pipelines &#183; Automation — Arequipa, Perú</text>
+    <text class="role"    x="500" y="156">full-stack dev · Arequipa, Perú</text>
+    <text class="role r2" x="500" y="156">working on RedactorIA — tools for academic writing</text>
+    <text class="role r3" x="500" y="156">side quest: heyro.ai — videos that follow the music</text>
   </g>
 
-  <!-- linea de pulso inferior -->
-  <g fill="#00dae8">
-    <circle class="dotpulse d1" cx="440" cy="196" r="3"/>
-    <circle class="dotpulse d2" cx="470" cy="196" r="3"/>
-    <circle class="dotpulse d3" cx="500" cy="196" r="3"/>
-    <circle class="dotpulse d4" cx="530" cy="196" r="3"/>
-    <circle class="dotpulse d5" cx="560" cy="196" r="3"/>
-  </g>
+  <!-- onda de audio que recorre la base -->
+  <path class="wave" d="M 240 196 Q 260 180 280 196 T 320 196 T 360 196 T 400 196 T 440 196 T 480 196 T 520 196 T 560 196 T 600 196 T 640 196 T 680 196 T 720 196 T 760 196"
+        stroke="#00dae8" stroke-width="2" fill="none" opacity="0.55"/>
 </svg>

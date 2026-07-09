@@ -1,0 +1,18 @@
+<svg width="1000" height="26" viewBox="0 0 1000 26" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00dae8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00dae8" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .w {
+        stroke-dasharray: 5 9;
+        animation: mv 1.4s linear infinite;
+      }
+      @keyframes mv { to { stroke-dashoffset: -14; } }
+    </style>
+  </defs>
+  <path class="w" d="M 60 13 Q 80 3 100 13 T 140 13 T 180 13 T 220 13 T 260 13 T 300 13 T 340 13 T 380 13 T 420 13 T 460 13 T 500 13 T 540 13 T 580 13 T 620 13 T 660 13 T 700 13 T 740 13 T 780 13 T 820 13 T 860 13 T 900 13 T 940 13"
+        stroke="url(#fade)" stroke-width="2" fill="none"/>
+</svg>
