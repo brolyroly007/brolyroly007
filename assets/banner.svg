@@ -1,114 +1,55 @@
-<svg width="1000" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silver Rodríguez — full-stack developer">
+<svg width="1000" height="200" viewBox="0 0 1000 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silver Rodríguez — full-stack developer">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0c12"/>
-      <stop offset="0.55" stop-color="#0e1220"/>
-      <stop offset="1" stop-color="#101a26"/>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#00dae8" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#00dae8" stop-opacity="0.9"/>
+      <stop offset="0.75" stop-color="#7c5cff" stop-opacity="0.9"/>
+      <stop offset="1"    stop-color="#7c5cff" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00dae8"/>
-      <stop offset="1" stop-color="#7c5cff"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#00dae8" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#00dae8" stop-opacity="0"/>
-    </radialGradient>
     <style>
-      .bar {
-        transform-box: fill-box;
-        transform-origin: center bottom;
-        animation: eq 1.0s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+      .wave {
+        stroke-dasharray: 4 8;
+        animation: travel 3.2s linear infinite;
       }
-      @keyframes eq {
-        0%, 100% { transform: scaleY(0.30); }
-        50% { transform: scaleY(1); }
+      @keyframes travel {
+        to { stroke-dashoffset: -24; }
       }
-      .d1 { animation-delay: 0.00s; }
-      .d2 { animation-delay: 0.14s; }
-      .d3 { animation-delay: 0.28s; }
-      .d4 { animation-delay: 0.42s; }
-      .d5 { animation-delay: 0.56s; }
-      .d6 { animation-delay: 0.70s; }
       .role {
         opacity: 0;
-        animation: cycle 12s infinite;
-        font: 600 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;
-        fill: #8b95a7;
+        animation: cycle 15s infinite;
+        font: 500 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;
+        fill: #7d8697;
+        letter-spacing: 0.2px;
       }
       @keyframes cycle {
-        0%   { opacity: 0; }
-        4%   { opacity: 1; }
-        29%  { opacity: 1; }
-        33%  { opacity: 0; }
-        100% { opacity: 0; }
+        0%    { opacity: 0; }
+        3.5%  { opacity: 1; }
+        29%   { opacity: 1; }
+        33%   { opacity: 0; }
+        100%  { opacity: 0; }
       }
-      .r2 { animation-delay: 4s; }
-      .r3 { animation-delay: 8s; }
-      .wave {
-        stroke-dasharray: 6 10;
-        animation: dash 1.6s linear infinite;
-      }
-      @keyframes dash {
-        to { stroke-dashoffset: -16; }
-      }
-      .breathe {
-        animation: br 5s ease-in-out infinite;
-      }
-      @keyframes br {
-        0%, 100% { opacity: 0.6; }
-        50% { opacity: 1; }
-      }
-      .underline-slide {
-        stroke-dasharray: 60 340;
-        animation: slide 3.5s linear infinite;
-      }
-      @keyframes slide {
-        to { stroke-dashoffset: -400; }
-      }
+      .r2 { animation-delay: 5s; }
+      .r3 { animation-delay: 10s; }
     </style>
   </defs>
 
-  <rect width="1000" height="240" rx="16" fill="url(#bg)"/>
-  <rect x="1" y="1" width="998" height="238" rx="15" stroke="#1d2536" stroke-width="1.5" fill="none"/>
-  <ellipse class="breathe" cx="500" cy="120" rx="420" ry="150" fill="url(#glow)"/>
-
-  <!-- ecualizador izquierdo -->
-  <g>
-    <rect class="bar d1" x="56"  y="70" width="10" height="100" rx="5" fill="#00dae8"/>
-    <rect class="bar d3" x="76"  y="70" width="10" height="100" rx="5" fill="#22c8dd" opacity="0.85"/>
-    <rect class="bar d5" x="96"  y="70" width="10" height="100" rx="5" fill="#4a9fe8" opacity="0.7"/>
-    <rect class="bar d2" x="116" y="70" width="10" height="100" rx="5" fill="#7c5cff" opacity="0.6"/>
-    <rect class="bar d4" x="136" y="70" width="10" height="100" rx="5" fill="#8f7bff" opacity="0.45"/>
-    <rect class="bar d6" x="156" y="70" width="10" height="100" rx="5" fill="#a596ff" opacity="0.3"/>
-  </g>
-
-  <!-- ecualizador derecho (espejo) -->
-  <g>
-    <rect class="bar d6" x="834" y="70" width="10" height="100" rx="5" fill="#a596ff" opacity="0.3"/>
-    <rect class="bar d4" x="854" y="70" width="10" height="100" rx="5" fill="#8f7bff" opacity="0.45"/>
-    <rect class="bar d2" x="874" y="70" width="10" height="100" rx="5" fill="#7c5cff" opacity="0.6"/>
-    <rect class="bar d5" x="894" y="70" width="10" height="100" rx="5" fill="#4a9fe8" opacity="0.7"/>
-    <rect class="bar d3" x="914" y="70" width="10" height="100" rx="5" fill="#22c8dd" opacity="0.85"/>
-    <rect class="bar d1" x="934" y="70" width="10" height="100" rx="5" fill="#00dae8"/>
-  </g>
+  <rect width="1000" height="200" rx="14" fill="#0b0e14"/>
+  <rect x="0.75" y="0.75" width="998.5" height="198.5" rx="13.25" stroke="#1b2230" stroke-width="1.5" fill="none"/>
 
   <!-- nombre -->
-  <text x="500" y="104" text-anchor="middle"
+  <text x="500" y="92" text-anchor="middle"
         font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif"
-        font-size="46" font-weight="800" letter-spacing="-1" fill="#eef2f8">Silver Rodríguez</text>
+        font-size="42" font-weight="700" letter-spacing="-0.5" fill="#e6ebf2">Silver Rodríguez</text>
 
-  <!-- subrayado con destello que viaja -->
-  <line x1="400" y1="122" x2="600" y2="122" stroke="#233048" stroke-width="4" stroke-linecap="round"/>
-  <line class="underline-slide" x1="400" y1="122" x2="600" y2="122" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <!-- una sola onda, el unico movimiento -->
+  <path class="wave"
+        d="M 320 118 Q 335 106 350 118 T 380 118 T 410 118 T 440 118 T 470 118 T 500 118 T 530 118 T 560 118 T 590 118 T 620 118 T 650 118 T 680 118"
+        stroke="url(#stroke)" stroke-width="2" stroke-linecap="round" fill="none"/>
 
-  <!-- roles rotativos (sin humo) -->
+  <!-- roles, rotacion lenta -->
   <g text-anchor="middle">
     <text class="role"    x="500" y="156">full-stack dev · Arequipa, Perú</text>
     <text class="role r2" x="500" y="156">working on RedactorIA — tools for academic writing</text>
-    <text class="role r3" x="500" y="156">side quest: heyro.ai — videos that follow the music</text>
+    <text class="role r3" x="500" y="156">side quest: heyro.ai — video that follows music</text>
   </g>
-
-  <!-- onda de audio que recorre la base -->
-  <path class="wave" d="M 240 196 Q 260 180 280 196 T 320 196 T 360 196 T 400 196 T 440 196 T 480 196 T 520 196 T 560 196 T 600 196 T 640 196 T 680 196 T 720 196 T 760 196"
-        stroke="#00dae8" stroke-width="2" fill="none" opacity="0.55"/>
 </svg>
