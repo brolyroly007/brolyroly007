@@ -142,12 +142,12 @@
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=brolyroly007&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="165" alt="GitHub Stats">
+  <img src="https://github-stats-redactor-ia.vercel.app/api?username=brolyroly007&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="165" alt="GitHub Stats">
   <img src="https://streak-stats.demolab.com/?user=brolyroly007&theme=github-dark-blue&hide_border=true" height="165" alt="GitHub Streak">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brolyroly007&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages">
+  <img src="https://github-stats-redactor-ia.vercel.app/api/top-langs/?username=brolyroly007&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages">
 </p>
 
 ---
