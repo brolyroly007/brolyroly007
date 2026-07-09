@@ -1,0 +1,98 @@
+<svg width="1000" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silver Rodriguez — builder of products that sell themselves">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0c12"/>
+      <stop offset="0.55" stop-color="#0e1220"/>
+      <stop offset="1" stop-color="#101a26"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00dae8"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00dae8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#00dae8" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .bar {
+        transform-box: fill-box;
+        transform-origin: center bottom;
+        animation: eq 1.0s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+      }
+      @keyframes eq {
+        0%, 100% { transform: scaleY(0.30); }
+        50% { transform: scaleY(1); }
+      }
+      .d1 { animation-delay: 0.00s; }
+      .d2 { animation-delay: 0.14s; }
+      .d3 { animation-delay: 0.28s; }
+      .d4 { animation-delay: 0.42s; }
+      .d5 { animation-delay: 0.56s; }
+      .d6 { animation-delay: 0.70s; }
+      .role {
+        opacity: 0;
+        animation: cycle 12s infinite;
+        font: 600 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;
+        fill: #8b95a7;
+      }
+      @keyframes cycle {
+        0%   { opacity: 0; }
+        4%   { opacity: 1; }
+        29%  { opacity: 1; }
+        33%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .r2 { animation-delay: 4s; }
+      .r3 { animation-delay: 8s; }
+      .dotpulse { animation: dp 1.0s ease-in-out infinite; }
+      @keyframes dp {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1000" height="240" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="998" height="238" rx="15" stroke="#1d2536" stroke-width="1.5" fill="none"/>
+  <ellipse cx="500" cy="120" rx="420" ry="150" fill="url(#glow)"/>
+
+  <!-- ecualizador izquierdo -->
+  <g>
+    <rect class="bar d1" x="70"  y="70" width="11" height="100" rx="5.5" fill="#00dae8"/>
+    <rect class="bar d3" x="92"  y="70" width="11" height="100" rx="5.5" fill="#22c8dd" opacity="0.85"/>
+    <rect class="bar d5" x="114" y="70" width="11" height="100" rx="5.5" fill="#4a9fe8" opacity="0.7"/>
+    <rect class="bar d2" x="136" y="70" width="11" height="100" rx="5.5" fill="#7c5cff" opacity="0.55"/>
+  </g>
+
+  <!-- ecualizador derecho (espejo) -->
+  <g>
+    <rect class="bar d4" x="842" y="70" width="11" height="100" rx="5.5" fill="#7c5cff" opacity="0.55"/>
+    <rect class="bar d6" x="864" y="70" width="11" height="100" rx="5.5" fill="#4a9fe8" opacity="0.7"/>
+    <rect class="bar d2" x="886" y="70" width="11" height="100" rx="5.5" fill="#22c8dd" opacity="0.85"/>
+    <rect class="bar d5" x="908" y="70" width="11" height="100" rx="5.5" fill="#00dae8"/>
+  </g>
+
+  <!-- nombre -->
+  <text x="500" y="106" text-anchor="middle"
+        font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif"
+        font-size="46" font-weight="800" letter-spacing="-1" fill="#eef2f8">Silver Rodríguez</text>
+
+  <!-- subrayado con acento -->
+  <rect x="400" y="122" width="200" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- roles rotativos -->
+  <g text-anchor="middle">
+    <text class="role"    x="500" y="158">Founder @ RedactorIA — 10k+ users across LatAm</text>
+    <text class="role r2" x="500" y="158">Building heyro.ai — product demos that hit on the beat</text>
+    <text class="role r3" x="500" y="158">Full-Stack &#183; AI pipelines &#183; Automation — Arequipa, Perú</text>
+  </g>
+
+  <!-- linea de pulso inferior -->
+  <g fill="#00dae8">
+    <circle class="dotpulse d1" cx="440" cy="196" r="3"/>
+    <circle class="dotpulse d2" cx="470" cy="196" r="3"/>
+    <circle class="dotpulse d3" cx="500" cy="196" r="3"/>
+    <circle class="dotpulse d4" cx="530" cy="196" r="3"/>
+    <circle class="dotpulse d5" cx="560" cy="196" r="3"/>
+  </g>
+</svg>
